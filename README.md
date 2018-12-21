@@ -3,8 +3,9 @@
 
 To run this code, the user should have all of the modules specified in the first code cell below installed. If any modules are not installed on your computer, simply google the module name followed by "anaconda forge" to obtain the syntax that will allow you to download the missing package(s) using the command prompt or other package installation method.
 
-To run the model:
+NOTE: to run this model the user will need to navagate to the releases tab above, and download and move "Land_use_wRO_codes.shp" to the  Raw_GIS_Data//Land_use folder. Additionally  "swb2.exe" will need to be moved into the Run folder. This is due to the large file size of these files. 
 
+To run the model:
 open this "Tutuila100.ipynb" in your Jupyter Notebook, ensure relative paths to the "Raw_GIS_Data" and "Std_input" folders are correct ensure the swb.exe executable file is installed in the same directory that contains this notebook (note that using the default directory structure is required) ensure the control file "Tutuila100_controlFile.ctl" is also located in the same directory that contains this notebook run the notebook cell by cell through all cells The model will create the appropriate directory structure and will create output folders with model results in gridded and tabular summarized format, as well as fitures in .tif format.
 
 ### Abstract
